@@ -1,0 +1,35 @@
+ <div class="w-container w-footer">
+    <div class="w-footer-section " >
+      <div class="w-footer-in" >
+        <div class="foot-mask" ></div>
+        <div class="w-foot-content  ">
+          <div class="li-div" data-comunique="e7777fd0cd7fcc880743115e6ab0c850">
+            <div class="w-text"  style="">
+              <p style="text-align: center;">微信：{eyou:global name='web_attr_1' /} &nbsp;&nbsp; 客服邮箱：{eyou:global name='web_attr_2' /}</p>
+              <p style="text-align: center;">{eyou:global name='web_copyright' /} &nbsp;&nbsp; {eyou:global name='web_recordnum' /}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-service-fixed">
+      <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+        <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+      </div>
+      <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+    </div>
+  </div>
+   {eyou:global name='web_thirdcode_pc' /}
+  <!-- 应用插件标签 start -->
+  {eyou:weapp type='default' /}
+  <!-- 应用插件标签 end -->
