@@ -32,11 +32,11 @@ $(function () {
 
     // 当图片加载失败的时候
     $('img').error(function () {
-        $(this).attr('src', 'public/images/images-empty.png');
+        $(this).attr('src', '/public/images/images-empty.png');
     });
 
     // menu 过长问题
-//    $.getScript('public/naples/js/jquery.menu_style.js', function () {
+//    $.getScript('/public/naples/js/jquery.menu_style.js', function () {
 //        new GMenuStylePage(jQuery, $("#g-web-ul-menu"));
 //    });
 
